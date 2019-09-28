@@ -14,6 +14,9 @@ def reduce(array, starting_point = 0)
   }
   result 
 end
+
+
+
 =======
 def my_own_map(array)
 yield(array)
