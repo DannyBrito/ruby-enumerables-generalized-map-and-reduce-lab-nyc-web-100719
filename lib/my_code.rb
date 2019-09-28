@@ -12,9 +12,6 @@ def reduce(array, starting_point = 0)
   array.length.times{|index|
   result = yield(array[index], result)
   }
-  if result == nil 
-  result = false
-  end
   result 
 end
 =======
